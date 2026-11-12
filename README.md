@@ -10,9 +10,12 @@ Aplicación educativa que utiliza un modelo de **TensorFlow/Keras** para reconoc
 
 > **Separación en Colombia:** las cuatro clases del modelo son materiales aprovechables y se depositan en la **caneca blanca** cuando están limpios y secos. La aplicación no asigna una caneca diferente a cada material.
 
----
-# ENLACE LANDING: https://dgonzro27.github.io/PROYECTO_ABP_ECO/
-# ENLACE STREAMLIT: https://proyecto-abp-ecovision.streamlit.app/
+## 🌐 Acceso al proyecto
+
+- **Landing Page:** [EcoVision AI](https://dgonzro27.github.io/PROYECTO_ABP_ECO/)
+- **Aplicación Streamlit:** [Probar EcoVision AI](https://proyecto-abp-ecovision.streamlit.app/)
+
+Explora la página de presentación del proyecto y accede a la aplicación para probar la clasificación de residuos mediante inteligencia artificial.
 
 ---
 
