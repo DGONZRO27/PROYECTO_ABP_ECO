@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f7f1">
+    <meta name="description" content="EcoVision identifica residuos aprovechables con visión artificial y te orienta para separarlos correctamente.">
+    <title>EcoVision — Separa mejor, transforma más</title>
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="EcoVision, inicio">
+          <span class="brand-mark" aria-hidden="true">↗</span>
+          <span>EcoVision</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="site-navigation">☰</button>
+        <div class="nav-links" id="site-navigation">
+          <a href="#como-funciona">Cómo funciona</a>
+          <a href="#materiales">Materiales</a>
+          <a href="#proyecto">El proyecto</a>
+          <a class="nav-cta" href="https://docs.streamlit.io/deploy/streamlit-community-cloud" target="_blank" rel="noreferrer">Desplegar en Streamlit ↗</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-shell">
+          <div class="reveal">
+            <p class="eyebrow">Visión artificial para un planeta mejor</p>
+            <h1>Separa mejor.<br><em>Transforma más.</em></h1>
+            <p class="hero-copy">Una herramienta educativa que reconoce residuos aprovechables y te ayuda a decidir dónde depositarlos.</p>
+            <div class="button-row">
+              <a class="button" href="#como-funciona">Descubre cómo funciona <span aria-hidden="true">&nbsp;↓</span></a>
+              <a class="button button-secondary" href="#materiales">Ver materiales</a>
+            </div>
+            <div class="hero-note">
+              <span class="note-dot" aria-hidden="true">✓</span>
+              <span>Plástico, papel y cartón, metal y vidrio</span>
+            </div>
+          </div>
+          <img class="hero-art reveal" src="assets/img/eco-sorting.svg" alt="Ilustración de materiales reciclables junto a una caneca blanca">
+        </div>
+      </section>
+
+      <section class="stat-strip" aria-label="Resumen del proyecto">
+        <div class="section-shell stat-grid">
+          <div class="stat"><strong>4 materiales</strong><span>Clases incluidas en el modelo</span></div>
+          <div class="stat"><strong>Una foto</strong><span>Desde la cámara o tu dispositivo</span></div>
+          <div class="stat"><strong>Una decisión</strong><span>Una guía sencilla para separar</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="como-funciona">
+        <div class="section-shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">De imagen a acción</p>
+            <h2>Una forma simple de aprender a separar.</h2>
+            <p>EcoVision conecta un modelo de aprendizaje profundo con una experiencia práctica y directa.</p>
+          </div>
+          <div class="steps-grid">
+            <article class="step-card reveal">
+              <span class="step-number">01</span>
+              <h3>Captura</h3>
+              <p>Toma una foto o selecciona una imagen nítida del residuo que quieres revisar.</p>
+            </article>
+            <article class="step-card reveal">
+              <span class="step-number">02</span>
+              <h3>Identifica</h3>
+              <p>El modelo Keras analiza la imagen y estima cuál de las cuatro clases reconoce.</p>
+            </article>
+            <article class="step-card reveal">
+              <span class="step-number">03</span>
+              <h3>Separa</h3>
+              <p>Consulta la recomendación y deposita el material limpio y seco en la caneca correspondiente.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section materials" id="materiales">
+        <div class="section-shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Lo que reconoce</p>
+            <h2>Cuatro materiales. Un hábito que suma.</h2>
+            <p>En Colombia, estos residuos aprovechables se separan en la caneca blanca cuando están limpios y secos.</p>
+          </div>
+          <div class="material-grid">
+            <article class="material-card reveal">
+              <span class="material-icon" aria-hidden="true">◌</span>
+              <h3>Plástico</h3>
+              <p>Envases y empaques aprovechables, vacíos y enjuagados.</p>
+              <span class="bin-label">Caneca blanca</span>
+            </article>
+            <article class="material-card reveal">
+              <span class="material-icon" aria-hidden="true">▤</span>
+              <h3>Papel y cartón</h3>
+              <p>Hojas y cajas secas, sin restos de comida ni grasa.</p>
+              <span class="bin-label">Caneca blanca</span>
+            </article>
+            <article class="material-card reveal">
+              <span class="material-icon" aria-hidden="true">▱</span>
+              <h3>Metal</h3>
+              <p>Latas y envases metálicos vacíos y limpios.</p>
+              <span class="bin-label">Caneca blanca</span>
+            </article>
+            <article class="material-card reveal">
+              <span class="material-icon" aria-hidden="true">◉</span>
+              <h3>Vidrio</h3>
+              <p>Botellas y frascos limpios; manipúlalos con cuidado.</p>
+              <span class="bin-label">Caneca blanca</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="proyecto">
+        <div class="section-shell">
+          <div class="project-panel reveal">
+            <div>
+              <p class="eyebrow">Proyecto académico · Deep Learning</p>
+              <h2>Aprender inteligencia artificial también es cuidar el entorno.</h2>
+              <p>Una aplicación con TensorFlow, Keras y Streamlit, organizada por capas y preparada para desplegarse desde un repositorio público.</p>
+            </div>
+            <a class="button" href="https://docs.streamlit.io/deploy/streamlit-community-cloud" target="_blank" rel="noreferrer">Guía de despliegue ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-shell">
+        <p>© <span id="current-year"></span> EcoVision · Proyecto de Daniel Alejandro Gonzalez.</p>
+        <div class="footer-links">
+          <a href="#inicio">Volver arriba ↑</a>
+          <a href="https://github.com/DGONZRO27/PROYECTO_ABP_ECO" target="_blank" rel="noreferrer">Repositorio ↗</a>
+          <a href="https://docs.streamlit.io/deploy/streamlit-community-cloud" target="_blank" rel="noreferrer">Streamlit ↗</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
