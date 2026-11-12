@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Separación de residuos aprovechables</title>
+  <desc id="description">Ilustración de una caja de cartón, una botella y una lata junto a una caneca blanca con hojas verdes.</desc>
+  <rect x="36" y="24" width="568" height="512" rx="48" fill="#E8F0E9"/>
+  <circle cx="500" cy="111" r="52" fill="#D7ED9F"/>
+  <path d="M66 434c40-47 75-56 104-28 15 15 19 38 15 68H66v-40Z" fill="#C5DDAF"/>
+  <path d="M554 454c-24-42-49-58-75-45-18 9-27 30-28 65h103v-20Z" fill="#B5D2A0"/>
+  <path d="M112 406c17-34 34-51 54-49-1 22-13 40-37 55m15 50c6-40 20-66 44-78-2 34-13 58-38 78" stroke="#719A69" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M500 396c-13-29-28-44-47-43 0 20 10 36 31 48m-10 48c-4-36-16-60-38-72 0 31 10 53 33 72" stroke="#719A69" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <ellipse cx="329" cy="459" rx="188" ry="28" fill="#D8E4D6"/>
+  <path d="M224 217h215l-18 212c-2 19-17 33-36 33h-108c-19 0-34-14-36-33l-17-212Z" fill="#FFF" stroke="#C9D4CA" stroke-width="5"/>
+  <path d="M208 199c0-11 9-20 20-20h207c11 0 20 9 20 20v17H208v-17Z" fill="#F8FAF6" stroke="#C9D4CA" stroke-width="5"/>
+  <path d="M293 258h77m-66 32h55m-50 32h45" stroke="#A8B6AA" stroke-linecap="round" stroke-width="6"/>
+  <path d="m329 356 20 14-20 14m20-14h-37m-10-14-20 14 20 14m-20-14h37" stroke="#4E805C" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+  <path d="M111 305h94v111h-94z" fill="#C68C58"/>
+  <path d="m111 305 47-31 47 31m-94 0 47 31 47-31m-47 31v80" stroke="#9A6840" stroke-linejoin="round" stroke-width="5"/>
+  <path d="M104 299h108v14H104z" fill="#D7A273"/>
+  <path d="M450 260c0-13 10-23 23-23h24c13 0 23 10 23 23v117c0 12-10 22-22 22h-26c-12 0-22-10-22-22V260Z" fill="#B9D7C6"/>
+  <path d="M467 237v-18h36v18" stroke="#7D9D89" stroke-linecap="round" stroke-width="7"/>
+  <path d="M460 284h50" stroke="#E8F0E9" stroke-linecap="round" stroke-width="6"/>
+  <path d="M273 135c-4-35 7-64 32-88 11 33 2 62-27 86m37-15c12-34 34-54 66-59-8 35-30 55-66 59m-39 17c-29-7-49-26-58-57 34 3 55 21 65 54" fill="#77A66F"/>
+  <path d="M303 151c-2-31 6-57 25-78m-13 62c13-23 31-37 56-43m-77 52c-19-14-34-30-43-50" stroke="#EFF6E7" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="165" cy="192" r="7" fill="#D7ED9F"/>
+  <circle cx="534" cy="324" r="6" fill="#91B68C"/>
+</svg>
