@@ -10,6 +10,11 @@ Aplicación educativa que utiliza un modelo de **TensorFlow/Keras** para reconoc
 
 > **Separación en Colombia:** las cuatro clases del modelo son materiales aprovechables y se depositan en la **caneca blanca** cuando están limpios y secos. La aplicación no asigna una caneca diferente a cada material.
 
+---
+# ENLACE LANDING: https://dgonzro27.github.io/PROYECTO_ABP_ECO/
+
+---
+
 ## Contenido
 
 - [Características](#características)
