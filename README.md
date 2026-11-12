@@ -12,6 +12,7 @@ Aplicación educativa que utiliza un modelo de **TensorFlow/Keras** para reconoc
 
 ---
 # ENLACE LANDING: https://dgonzro27.github.io/PROYECTO_ABP_ECO/
+# ENLACE STREAMLIT: https://proyecto-abp-ecovision.streamlit.app/
 
 ---
 
